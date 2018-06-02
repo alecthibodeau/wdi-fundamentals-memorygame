@@ -93,11 +93,82 @@ font-size: 0;
 	font-weight: 700;
 }
 
+.info {
+	display: inline-block;
+	width: 48%;
+	margin-top: -5px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+#matches {
+	float: left;
+}
+
+.count {
+	display: inline-block;
+	position: relative;
+/*	bottom: 1px;*/
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px;
+	color: #00A6B3;
+	font-weight: 700;
+	font-size: 18px;
+	vertical-align: bottom;
+}
+
+#resetScore {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	color: #E99533;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+#playAgain {
+	visibility: hidden;
+	display: inline;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	width: 140px;
+	padding: 10px;
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#game-board {
+	margin-top: -10px;
+}
+
+
 a:hover {
 	border-bottom: 2px solid white;
 }
 
+#playAgain:hover {
+	color: #F15B31;
+	cursor: pointer;
+}
 
+#resetScore:hover {
+	color: #F15B31;
+	cursor: pointer;
+}
 
 
 
